@@ -1,0 +1,78 @@
+
+.top-buffer {
+    margin-top: 40px !important;
+}
+
+.no-top-buffer {
+    margin-top: 0px !important;
+}
+
+.no-bottom-margin {
+    margin-bottom: 0px !important;
+}
+
+.low-margin {
+    margin-top: 2px !important;
+    margin-bottom: 2px !important;
+}
+
+.btn {
+    transition:.4s;
+}
+
+.btn.main:hover {
+    color: #ad1e00;
+
+    background-color: #d2d2d2;
+}
+
+.btn-danger:hover {
+    background-color: #db1652;
+    border-color: #ea1757;
+}
+
+.btn-success:hover {
+    background-color: #81cf7b;
+    border-color: #8ce185;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    font-weight: bold;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+textarea {
+    height: 75px !important;
+}
+
+
+textarea[disabled] {
+    cursor: not-allowed !important;
+}
+
+textarea[readonly] {
+    cursor: pointer !important;
+}
+
+textarea[readonly]:not(#edit-current), textarea[disabled]:not(#edit-current) {
+    border: none;
+    overflow: auto;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin: 0px -0.046875px 0px 0px;
+    width: 340px;
+    height: 77px;
+    background-color: inherit !important;
+    resize: none;
+}
+
+.tooltip-inner {
+    font-size: 11px;
+}
