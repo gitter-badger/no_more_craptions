@@ -21,7 +21,7 @@ $id = check_var($_GET['youtube-id'], True);
                 <div class="col-md-offset-4 col-md-4 text-center">
                     <form role="form">
                         <div class="form-group row">
-                            <label for="youtube-id"><big>Youtube URL</big></label>
+                            <label for="youtube-id"><big>YouTube URL</big></label>
                             <input type="text" class="form-control input-lg" id="youtube-id" name="youtube-id" value="<?php echo $id; ?>">
                         </div>
                     </form>

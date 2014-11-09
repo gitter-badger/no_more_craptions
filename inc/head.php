@@ -24,5 +24,5 @@
         <meta name="msapplication-TileImage" content="assets/images/icons/mstile-144x144.png">
         <meta name="msapplication-config" content="assets/images/icons/browserconfig.xml">
 
-        <title>Craptions.to.Caption</title>
+        <title>Turn craptions into captions!</title>
 </head>
